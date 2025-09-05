@@ -1,9 +1,20 @@
-pydantic
-python-dotenv
-langchain_groq
-langchain-core
-langgraph
-streamlit
-markdown
-python-tavily
-langchain
+# Requirements for Veritas application
+# Core libs
+pydantic>=1.10.12,<2.1
+python-dotenv>=1.0.0,<3.0
+
+# LLM / AI integration
+langchain>=0.0.300,<1.0
+langchain-groq>=0.1.0,<1.0
+langgraph>=0.3.0,<1.0
+
+# News search / vendor SDK
+python-tavily>=0.1.0,<1.0
+
+# App & rendering
+streamlit>=1.26.0,<2.0
+markdown>=3.4.0,<4.0
+
+# Optional extras you may need depending on environment
+requests>=2.31.0,<3.0
+typing-extensions>=4.0.0
