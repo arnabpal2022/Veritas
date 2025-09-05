@@ -9,7 +9,7 @@ langchain-groq>=0.1.0,<1.0
 langgraph>=0.3.0,<1.0
 
 # News search / vendor SDK
-python-tavily>=0.1.0,<1.0
+tavily-python==0.7.11
 
 # App & rendering
 streamlit>=1.26.0,<2.0
