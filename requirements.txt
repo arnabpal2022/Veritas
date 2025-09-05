@@ -5,3 +5,5 @@ langchain-core
 langgraph
 streamlit
 markdown
+python-tavily
+langchain
