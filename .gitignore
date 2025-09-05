@@ -1,0 +1,19 @@
+.venv
+.env
+__pycache__/
+.ipynb_checkpoints
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.sqlite3
+instance/
+migrations/ # if using Flask-Migrate
+.envrc
+*.env
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak   
